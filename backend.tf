@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = *CHANGE THIS TO YOUR BUCKET
+    bucket         = "mynews3test"
     region         = "eu-west-2"
     key            = "Github-Runner-TF/terraform.tfstate"
     encrypt        = true
